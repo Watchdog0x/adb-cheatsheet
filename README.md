@@ -21,7 +21,7 @@ run-as <package> cat <file> (access the private package files)
   
 adb shell dumpsys package packages | grep  (grep after apk name)\
 adb shell pm list packages (list package names)\
-adb shell path <package> (path to the apk file)
+adb shell pm path <package> (path to the apk file)
 
 ``` bash
  list packages [-f] [-d] [-e] [-s] [-3] [-i] [-l] [-u] [-U]
