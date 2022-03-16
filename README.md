@@ -223,7 +223,8 @@ Adverb modifiers can be used in combination:
 ## activity
     
  am start-activity net.oneplus.launcher/net.oneplus.quickstep.RecentsActivity  (Oneplus open swipe to close ??)\
- am start-activity com.android.vending/com.google.android.finsky.activities.MainActivity (open google play store)
+ am start-activity com.android.vending/com.google.android.finsky.activities.MainActivity (open google play store)\
+ am start-activity com.android.settings/.homepage.SettingsHomepageActivity (Open Settings)
  
  ``` bash
 start-activity [-D] [-N] [-W] [-P <FILE>] [--start-profiler <FILE>]
